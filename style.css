@@ -1,0 +1,65 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #FAF3E0; /* Light pastel background */
+}
+
+header {
+    background: #B3D9FF; /* Pastel blue */
+    color: #333;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+#home {
+    background: #FFECB3; /* Pastel yellow */
+}
+
+#about {
+    background: #FFCCBC; /* Pastel peach */
+}
+
+#contact {
+    background: #C8E6C9; /* Pastel green */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #B3D9FF; /* Pastel blue */
+    color: #333;
+    border-top: 2px solid #333;
+}
